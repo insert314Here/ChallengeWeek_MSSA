@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListSample", "ArrayCha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToArrayList", "AddToArrayList\AddToArrayList.csproj", "{3DD10E7D-380F-4240-96D7-6DF367E3D74A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToClasses", "IntroToClasses\IntroToClasses.csproj", "{61FA7572-B8D0-412E-9DCE-17F7FC4E9F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{3DD10E7D-380F-4240-96D7-6DF367E3D74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD10E7D-380F-4240-96D7-6DF367E3D74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD10E7D-380F-4240-96D7-6DF367E3D74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FA7572-B8D0-412E-9DCE-17F7FC4E9F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FA7572-B8D0-412E-9DCE-17F7FC4E9F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FA7572-B8D0-412E-9DCE-17F7FC4E9F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FA7572-B8D0-412E-9DCE-17F7FC4E9F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
