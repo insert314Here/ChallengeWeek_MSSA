@@ -1,12 +1,32 @@
 ﻿using System;
+using System.Collections;
 
-namespace ArrayChallenge
+namespace ArrayListSample
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            string[] nameArray = new string[5] { "david", "allen", "coe", "dimebag darryl", "hank the 3rd" };
+            ArrayList myAL = new ArrayList();
+            myAL.Add("Hello");
+            myAL.Add("Some korean phrase");
+            myAL.Add("Numb3r5 and letters");
+
+            Console.WriteLine("My ArrangeList");
+            Console.WriteLine(" Count: {0}", myAL.Count);
+            Console.WriteLine(" Capacity: {0}", myAL.Capacity);
+            Console.Write(" Values:");
+            PrintValues(myAL);
+
+
+        }
+
+        private static void PrintValues(ArrayList myAL)
+        {
+            foreach (Object obj in myList)
+            Console.Write($" {obj}");
+            Console.WriteLine();
+
         }
     }
 }
