@@ -17,13 +17,11 @@ namespace ArrayListSample
             Console.WriteLine(" Capacity: {0}", myAL.Capacity);
             Console.Write(" Values:");
             PrintValues(myAL);
-
-
         }
 
         private static void PrintValues(ArrayList myAL)
         {
-            foreach (Object obj in myList)
+            foreach (Object obj in myAL)
             Console.Write($" {obj}");
             Console.WriteLine();
 
