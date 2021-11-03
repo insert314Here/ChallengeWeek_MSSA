@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToClasses", "IntroToCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{3ED0BED6-C470-401D-B3FA-F36704490C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39BFFEE5-7A2A-430A-A5B5-2A57C877F015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED0BED6-C470-401D-B3FA-F36704490C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED0BED6-C470-401D-B3FA-F36704490C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED0BED6-C470-401D-B3FA-F36704490C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED0BED6-C470-401D-B3FA-F36704490C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
