@@ -24,13 +24,13 @@ namespace SortArray
                 Console.Write($"{arr[i]} - ");
             }
 
-            Array.Sort(arr);
-            Array.Reverse(arr);
-            Console.WriteLine("\n---Elements After Sort by Reverse---\n");
-            for (i = 0; i < arrayLength; i++)
-            {
-                Console.Write($"{arr[i]} - ");
-            }
+            //Array.Sort(arr);
+            //Array.Reverse(arr);
+            //Console.WriteLine("\n---Elements After Sort by Reverse---\n");
+            //for (i = 0; i < arrayLength; i++)
+            //{
+            //    Console.Write($"{arr[i]} - ");
+            //}
             Console.ReadKey();
         }
     }

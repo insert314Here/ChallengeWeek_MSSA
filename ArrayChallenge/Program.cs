@@ -6,7 +6,7 @@ namespace ArrayChallenge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] nameArray = new string[5] { "david", "allen", "coe", "dimebag darryl", "hank the 3rd" };
         }
     }
 }
